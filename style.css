@@ -186,3 +186,39 @@ footer {
     text-align: center;
     padding: 1.5rem;
 }
+
+/* Mobile Responsiveness Fixes */
+@media (max-width: 600px) {
+    /* 1. Fix the Header navigation so it stacks neatly */
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 1rem;
+    }
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    /* 2. Give the Hero box more room on small screens */
+    .hero-content {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    /* 3. Stack the Search Input and Button vertically */
+    .search-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* 4. Fix the border-radius so they look like separate elements now */
+    .search-form input {
+        border-radius: 4px;
+        width: 100%;
+    }
+    .search-form button {
+        border-radius: 4px;
+        width: 100%;
+    }
+}
