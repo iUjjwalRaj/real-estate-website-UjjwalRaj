@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Homes | Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Prime Homes</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Listings</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Home</h1>
+            <p>Search through thousands of real estate properties.</p>
+            <form class="search-form" id="searchForm">
+                <input type="text" id="searchInput" placeholder="Enter city, neighborhood, or zip code..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="properties">
+        <h2>Featured Properties</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Villa">
+                <div class="card-body">
+                    <div class="card-price">₹2.5 Crore</div>
+                    <h3 class="card-title">Modern Luxury Villa</h3>
+                    <div class="card-details">4 Beds • 3 Baths • 3,200 sqft</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Family Home">
+                <div class="card-body">
+                    <div class="card-price">₹1.2 Crore</div>
+                    <h3 class="card-title">Cozy Family Home</h3>
+                    <div class="card-details">3 Beds • 2 Baths • 1,800 sqft</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Downtown Apartment">
+                <div class="card-body">
+                    <div class="card-price">₹85 Lakhs</div>
+                    <h3 class="card-title">Downtown Apartment</h3>
+                    <div class="card-details">2 Beds • 2 Baths • 1,100 sqft</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to our real estate agents.</p>
+        <form class="contact-form" id="contactForm">
+            <input type="text" id="contactName" placeholder="Your Name" required>
+            <input type="email" id="contactEmail" placeholder="Your Email" required>
+            <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Prime Homes Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
